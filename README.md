@@ -5,6 +5,7 @@ Inserido na **Categoria: Programação**, atendendo aos critérios específicos 
 
 # Identificação do Estudante e Instituição
 Estudante: Nilton Rafael Batistel Sviercoski
+CGM: 1008629605
 Série: 1º ano "A" - Técnico em agropecuária Integral
 Componente Curricular: Educação digital programação comutação e  IA
 Instituição de Ensino: Centro Estadual de Educação Profissional Olegário Macedo

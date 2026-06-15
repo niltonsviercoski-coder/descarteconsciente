@@ -1,0 +1,34 @@
+/* TABLET */
+@media (max-width: 992px) {
+    .hero-title { font-size: 2.2rem; }
+    .video-info { grid-template-columns: 1fr; }
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .menu-toggle { display: block; }
+    .nav-list { 
+        display: none; 
+        position: absolute; top: 100%; left: 0; width: 100%; 
+        background: var(--primaria); flex-direction: column; 
+        padding: 1rem 0; gap: 0;
+    }
+    .nav-list.ativo { display: flex; }
+    .nav a { padding: 1rem 2rem; display: block; border-radius: 0; border-bottom: 1px solid rgba(255,255,255,0.1); }
+    
+    .section { padding: 3rem 0; }
+    .section-title { font-size: 1.8rem; }
+    .hero { min-height: auto; padding: 4rem 0; }
+    .hero-title { font-size: 1.8rem; }
+    .hero-subtitle { font-size: 1.1rem; }
+    
+    .tabs-nav { flex-direction: column; }
+    .tab-btn { width: 100%; text-align: center; }
+    .grid-2, .cards-grid, .footer-grid { grid-template-columns: 1fr; }
+    .video-container { padding: 1rem; }
+}
+
+/* ACESSIBILIDADE */
+@media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+}
